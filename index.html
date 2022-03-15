@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.1/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA6VN3BuyE5rHWY1KIz5ZWz2WK5_oYvyRs",
+    authDomain: "c34homework.firebaseapp.com",
+    databaseURL: "https://c34homework.firebaseio.com",
+    projectId: "c34homework",
+    storageBucket: "c34homework.appspot.com",
+    messagingSenderId: "660209114263",
+    appId: "1:660209114263:web:82b41fdf8440ad99db5dd2"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <div id ="canvascontainer"></div>
+
+      <p>
+      <button id="saveButton">SAVE IN DATABASE</button>
+      <button id="clearButton">CLEAR</button>
+    </p>
+    <p>
+    <ol id="drawinglist">
+
+    </ol>
+
+</body></html>
